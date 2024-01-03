@@ -18,7 +18,7 @@ const signin = () => {
                 type="submit"
                 className="flex w-full justify-center  rounded-md bg-gray-50 px-3 py-3 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Continiue with Google
+                Continue with Google
               </button>
             </div>
             <div className="text-center">or</div>
@@ -53,10 +53,10 @@ const signin = () => {
           <p className="mt-10 text-center text-sm text-black-500">
             new to Crafyhub?{" "}
             <Link
-              href="#"
+              href="./sign-up"
               className="font-semibold leading-6 text-red-400 hover:text-red-600"
             >
-              Sign here
+              Sign up here
             </Link>
           </p>
         </div>
