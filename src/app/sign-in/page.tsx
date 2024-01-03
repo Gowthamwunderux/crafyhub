@@ -1,29 +1,35 @@
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
 const signin = () => {
   return (
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 h-dvh w-dvw bg-red-50 items-center  ">
-      <div className="border-2 border-black rounded-lg w-1/4 h-4/6   ">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
+    <div className="flex min-h-full  justify-center px-6  h-dvh w-dvw bg-red-50 items-center  ">
+      <div className="border-2 border-black rounded-lg w-1/4 h-4/6 ">
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm   grid-cols-12 grid-rows-12">
+          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900  grid-cols-12 grid-rows-12">
             Welcome black to Crafyhub
           </h2>
-          <p className="text-center">Sign up with your email address</p>
+          <p className="text-center  grid-cols-12 grid-rows-12">
+            Sign up with your email address
+          </p>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" action="#" method="POST">
+        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm max-w-md mx-auto">
+          <form
+            className="space-y-6  grid-cols-12 grid-rows-12"
+            action="#"
+            method="POST"
+          >
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center  rounded-md bg-gray-50 px-3 py-3 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className=" flex w-full justify-center  rounded-md bg-gray-50 px-3 py-3 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Continue with Google
               </button>
             </div>
-            <div className="text-center">or</div>
+            <div className="text-center  grid-cols-12 grid-rows-12">or</div>
             <div>
-              <div className="mt-2">
+              <div className="mt-2  grid-cols-12 grid-rows-12">
                 <input
                   id="email"
                   name="email"
@@ -37,20 +43,20 @@ const signin = () => {
             </div>
             <button
               type="button"
-              className="flex w-full justify-center  rounded-md bg-gray-300 px-3 py-3 text-sm font-semibold leading-6 text-black shadow-sm hover:border-b border-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className=" flex w-full justify-center  rounded-md bg-gray-300 px-3 py-3 text-sm font-semibold leading-6 text-black shadow-sm hover:border-b border-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               {" "}
               Continue
             </button>
             <div>
-              <div className=" text-center">
+              <div className=" text-center  grid-cols-12 grid-rows-12">
                 <h3> or sign in with Email Address</h3>
               </div>
-              <div className="mt-2"></div>
+              <div className="mt-2  grid-cols-12 grid-rows-12"></div>
             </div>
           </form>
 
-          <p className="mt-10 text-center text-sm text-black-500">
+          <p className="mt-10 text-center text-sm text-black-500  grid-cols-12 grid-rows-12">
             new to Crafyhub?{" "}
             <Link
               href="./sign-up"

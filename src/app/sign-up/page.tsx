@@ -2,8 +2,8 @@ import React from "react";
 import Link from 'next/link'
 const signup = () => {
   return (
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 h-dvh w-dvw bg-red-50 items-center  ">
-      <div className="border-2 border-black rounded-lg w-1/4 h-4/6   ">
+    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 h-dvh w-dvw bg-red-50 items-center grid-rows-8 grid-cols-8 ">
+      <div className="border-2 border-black rounded-lg w-1/4 h-4/6  ">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm ">
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Create your Crafyhub profile
