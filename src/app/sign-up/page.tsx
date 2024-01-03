@@ -4,7 +4,7 @@ export default function SignUp() {
   return (
  
    <>
-   <h1>hello world run </h1>
+   <h1> hello world </h1>
    </>
    
   )
