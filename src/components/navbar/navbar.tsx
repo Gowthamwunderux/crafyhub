@@ -9,7 +9,7 @@ const navigation = [
  
   { name: 'Freelancers', href: '#', current: false },
   { name: 'For Clients', href: '#', current: false },
-  { name: 'why crafy hub', href: '#', current: false },
+  { name: 'Why Crafy Hub', href: '#', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -43,15 +43,15 @@ export default function Navbar() {
                   />
                   <h2 className='px-4 text-2xl font-semibold'>Crafyhub</h2>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden ml-16 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          item.current ? 'bg-gray-900 text-white' : 
+                          'rounded-md px-3 py-2 text-lg font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
