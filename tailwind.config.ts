@@ -11,9 +11,12 @@ const config: Config = {
       'pink': '#F05',
       'pink-700': 'rgba(255, 0, 85, 0.07)',
       'grey': 'rgba(56, 56, 56, 1)',
-      'transparent':'transparent'
+      'transparent':'transparent',
+      // 'myGradient': 'linear-gradient(180deg, rgba(255, 0, 85, 0.07) 0%, rgba(255, 255, 255, 0.00) 100%)',
+       'myGradient': 'rgba(255, 0, 85, 0.07)',
 
     },
+ 
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
