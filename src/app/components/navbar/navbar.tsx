@@ -7,7 +7,7 @@ import { CrafyHubLogo } from '@/app/assets'
 
 const navigation = [
  
-  { name: 'Freelancers', href: '#', current: false },
+  { name: 'Freelancers', href: '/api/auth/login', current: false },
   { name: 'For Clients', href: '#', current: false },
   { name: 'Why Crafy Hub', href: '#', current: false },
 ]

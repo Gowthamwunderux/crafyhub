@@ -5,7 +5,7 @@ import Hiring from "./hiring/page";
 
 export default function Home() {
   return (
-    <>
+    <>     
       <Header />
       <Hiring />
     </>
