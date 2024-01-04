@@ -1,18 +1,19 @@
 import Image from "next/image"
 import { freelancers } from "../assets"
 import { payroll } from "../assets"
+import { LargeButton } from "../components/Buttons/Buttons"
 
 export default function Hiring() {
     return (
         <>
-            <section className="herobanner">
+            <section className="herobanner bg-gradient-to-b from-pink-700 to-[#fff]">
                 <div className="px-4 mx-auto h-screen max-w-7xl">
                     <div className="text-center">
-                        <h1 className="text-7xl font-bold">Connect with the world's <br />Best <i className="text-pink-700">Designers</i></h1>
+                        <h1 className="text-7xl font-bold">Connect with the world's <br />Best <i className="text-pink">Designers</i></h1>
                         <div>
                             <div className="relative mt-2 rounded-3xl flex justify-center pt-6">
                                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">  </div>
-                                <input type="text" name="price" id="price" className="block w-1/2  rounded-3xl border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1  ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-9" placeholder="Try UX Designer, Graphic Designer" />
+                                <input type="text" name="price" id="price" className="block w-1/2  rounded-3xl border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1  ring-gray-300 placeholder:text-gray-400  sm:text-sm sm:leading-9" placeholder="Try UX Designer, Graphic Designer" />
                             </div>
                         </div>
                         <p className="pt-6 text-base font-light">OR</p>
@@ -47,7 +48,7 @@ export default function Hiring() {
             <div className="freelancers bg-black">
                 <h3 className="text-white text-5xl font-semibold">Start Hiring Top Freelancers</h3>
                 <p className="text-zinc-400 text-2xl font-normal">Get started for free. Plus, Independents on<br></br> Crafyhub keep 100% of what you pay them.</p>
-
+                <LargeButton label="Hire Designers"/>
             </div>
 
         </>
