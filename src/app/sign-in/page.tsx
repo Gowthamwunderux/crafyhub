@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { LargeButton, SmallButton } from "../components/Buttons";
+import { LargeButton } from "../components/Buttons/Buttons";
+
 
 
 const signin : React.FC = () => {
@@ -71,7 +72,7 @@ const signin : React.FC = () => {
             </Link>
          
           </p>
-
+ <LargeButton label="continue"/>
         </div>
       </div>
     </div>
