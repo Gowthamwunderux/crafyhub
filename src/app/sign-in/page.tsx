@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
-const signin = () => {
+import { LargeButton, SmallButton } from "../components/Buttons";
+
+
+const signin : React.FC = () => {
   return (
+    <>
     <div className="flex min-h-full  justify-center px-6  h-dvh w-dvw bg-red-50 items-center  ">
       <div className="border-2 border-black rounded-lg w-1/4 h-4/6 ">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm   grid-cols-12 grid-rows-12">
@@ -53,6 +57,7 @@ const signin = () => {
                 <h3> or sign in with Email Address</h3>
               </div>
               <div className="mt-2  grid-cols-12 grid-rows-12"></div>
+          
             </div>
           </form>
 
@@ -64,10 +69,14 @@ const signin = () => {
             >
               Sign up here
             </Link>
+         
           </p>
+
         </div>
       </div>
     </div>
+    
+    </>
   );
 };
 
