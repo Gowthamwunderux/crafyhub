@@ -17,12 +17,12 @@ export default function Hiring() {
   ];
   return (
     <>
-      <section className="herobanner bg-gradient-to-b from-pink-700 to-[#fff]">
+      <section className="herobanner bg-gradient-to-b from-Pink-700 to-[#fff]">
         <div className="px-4 mx-auto min-h-screen max-w-7xl flex justify-center items-center">
           <div className="text-center">
             <h1 className="text-7xl font-bold">
               Connect with the world's <br />
-              Best <i className="text-pink">Designers</i>
+              Best <i className="text-Pink-900 not-italic">Designers</i>
             </h1>
             <div>
               <div className="relative mt-2 rounded-3xl flex justify-center pt-6">
@@ -39,7 +39,7 @@ export default function Hiring() {
             </h6>
             <button
               type="button"
-              className="mt-5 bg-pink  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2"
+              className="mt-5 bg-Pink-900 text-White  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2"
             >
               HIRE DESIGNERS
             </button>
@@ -58,7 +58,7 @@ export default function Hiring() {
           </p>
           <button
             type="button"
-            className="bg-pink-700 border-solid text-black mt-5 bg-pink-100 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-5 border-black me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="bg-Pink-700 border-solid text-black mt-5 bg-Pink-100 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-5 border-black me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             FIND TALENT DESIGNERS
           </button>
@@ -84,7 +84,7 @@ export default function Hiring() {
           </p>
           <button
             type="button"
-            className="bg-pink-700 border-solid border-1  text-black mt-5 bg-pink-100 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-5 border-black me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="bg-Pink-700 border-solid border-1  text-black mt-5 bg-Pink-100 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-5 border-black me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             HIRE FOR CRAFYHUB
           </button>
