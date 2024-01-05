@@ -6,7 +6,7 @@ const ExtraSmallButton: React.FC<ButtonProps> = ({ label }) => {
   return (
     <button
       type="button"
-      className=" w-32 px-3 py-2 text-xs font-medium text-center text-white bg-pink rounded-lg hover:bg-pink-700"
+      className=" w-32 px-3 py-2 text-xs font-medium text-center text-white bg-Pink-900 rounded-lg hover:bg-pink-700"
     >
       {label}
     </button>
