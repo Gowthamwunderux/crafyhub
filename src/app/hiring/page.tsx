@@ -1,4 +1,5 @@
 import Image from "next/image"
+
 import { freelancers } from "../assets"
 import { payroll } from "../assets"
 import { LargeButton } from "../components/Buttons/Buttons"
@@ -9,7 +10,7 @@ export default function Hiring() {
             <section className="herobanner bg-gradient-to-b from-pink-700 to-[#fff]">
                 <div className="px-4 mx-auto min-h-screen max-w-7xl flex justify-center items-center">
                     <div className="text-center">
-                        <h1 className="text-7xl font-bold">Connect with the world's <br />Best <i className="text-pink">Designers</i></h1>
+                        <h1 className="text-7xl font-bold">Connect with the world's <br />Best <i className="text-Pink-900 not-italic">Designers</i></h1>
                         <div>
                             <div className="relative mt-2 rounded-3xl flex justify-center pt-6">
                                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">  </div>
@@ -18,7 +19,7 @@ export default function Hiring() {
                         </div>
                         <p className="pt-6 text-base font-light">OR</p>
                         <h6 className="pt-5">Let us find the perfect Designers or team for your projects</h6>
-                        <button type="button" className="mt-5 bg-pink  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2">HIRE DESIGNERS</button>
+                        <button type="button" className="mt-5 bg-Pink-900 text-White  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2 ">HIRE DESIGNERS</button>
                     </div>
                 </div>
             </section>
