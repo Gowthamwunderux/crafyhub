@@ -4,6 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
 import { CrafyHubLogo } from "@/app/assets";
+import { SmallButton } from "../Buttons/page";
 
 const navigation = [
   { name: "Freelancers", href: "/api/auth/login", current: false },
@@ -19,7 +20,7 @@ export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-transparent">
       <>
-        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 fixed w-[100%]">
+        <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
@@ -54,6 +55,11 @@ export default function Navbar() {
                 
                 
               </div>
+              
+            </div>
+            <div className="flex justify-self-end">
+              <SmallButton label='SIGN UP' className='bg-Pink-700 text-black text-base rounded font-medium border-solid border border-indigo-600 px-3.5 py-1'></SmallButton>
+              <SmallButton label='LOG IN' className='bg-Pink-900 text-White text-base rounded font-medium border-solid border border-Pink-900 ml-2 px-3.5 py-1'></SmallButton>
             </div>
           </div>
         </div>
