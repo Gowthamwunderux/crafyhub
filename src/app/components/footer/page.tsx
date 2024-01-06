@@ -9,10 +9,10 @@ const footer = () => {
 
 
 <footer className="bg-white dark:bg-gray-900">
-    <div className="mx-auto w-full max-w-screen-xl">
-      <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
+    <div className="mx-auto w-full max-w-screen-2xl">
+      <div className="grid grid-cols-2 gap-24 px-4 py-6 lg:py-8 md:grid-cols-5">
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
+            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className=" hover:underline">Crafian for freelancers</a>
@@ -29,7 +29,7 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">FOR HIRING</h2>
+            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">FOR HIRING</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Crafian for hiring</a>
@@ -46,7 +46,7 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">WHY CRAFYHUB</h2>
+            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">WHY CRAFYHUB</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Mission</a>
@@ -60,7 +60,7 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">COMMUNITY</h2>
+            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">COMMUNITY</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Events</a>
@@ -74,7 +74,7 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">SOCIAL</h2>
+            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">SOCIAL</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className=""><img src="" alt="" /></a>
