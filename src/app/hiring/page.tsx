@@ -3,7 +3,7 @@ import Image from "next/image";
 import { freelancers } from "../assets";
 import { payroll } from "../assets";
 import AutocompleteInput from "../components/autoComplete/page";
-
+ 
 export default function Hiring() {
   interface DesignerType {
     id: number;
@@ -53,7 +53,11 @@ export default function Hiring() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> 3b8b37e3f6dfee9c8ba1c41e8c3676bb8dad06c2
       <div className="flex mb-4 px-10 mx-auto min-h-screen justify-center items-center">
         <div className="w-1/2">
           <h3 className="text-5xl font-semibold text-black">
@@ -74,7 +78,7 @@ export default function Hiring() {
           <Image className="" src={freelancers} alt="lancers"></Image>
         </div>
       </div>
-
+ 
       <div className="flex mb-4 px-14 mx-auto min-h-screen justify-center items-center">
         <div className="w-1/2">
           <Image className="" src={payroll} alt="roll"></Image>
@@ -97,7 +101,7 @@ export default function Hiring() {
           </button>
         </div>
       </div>
-
+ 
       <div className="flex mb-4 px-14 mx-auto min-h-screen justify-center items-center">
         <div className="w-full bg-black h-12">
           <h3 className="text-5xl font-semibold text-white">
