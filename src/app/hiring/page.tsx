@@ -5,16 +5,21 @@ import { LargeButton } from "../components/buttons/page";
 import AutocompleteInput from "../components/autoComplete/page";
 
 export default function Hiring() {
-  const DesignerOptions: string[] = [
-    "User Interface (UI) Designer",
-    "User Experience (UX) Designer",
-    "Web Designer",
-    "Game Designer",
-    "Interaction Designer (IxD)",
-    "Experiential Designer",
-    "Information Designer",
-    "Graphic Designer",
-  ];
+    interface DesignerType {
+        id: number;
+        name: string;
+      }
+    
+    const Designer: DesignerType[] = [
+        { id: 1, name: "User Interface (UI) Designer" },
+        { id: 2, name: "Web Designer" },
+        { id: 3, name: "Game Designer" },
+        { id: 4, name: "Interaction Designer (IxD)" },
+        { id: 5, name: "Experiential Designer" },
+        { id: 6, name: "Information Designer" },
+        { id: 7, name: "Graphic Designer" },
+        { id: 8, name: "User Experience (UX) Designer" },
+      ];
   return (
     <>
       <section className="herobanner bg-gradient-to-b from-Pink-700 to-[#fff]">
@@ -30,7 +35,7 @@ export default function Hiring() {
                   {" "}
                 </div>
                 {/* <input type="text" name="price" id="price" className="block w-1/2  rounded-3xl border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1  ring-gray-300 placeholder:text-gray-400  sm:text-sm sm:leading-9" placeholder="Try UX Designer, Graphic Designer" /> */}
-                <AutocompleteInput suggestions={DesignerOptions} />
+                <AutocompleteInput suggestions={Designer} className="border" />
               </div>
             </div>
             <p className="pt-6 text-base font-light">OR</p>

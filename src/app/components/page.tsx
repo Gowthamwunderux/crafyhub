@@ -1,8 +1,14 @@
-import React from 'react'
+'use client'
+import React,{useState} from 'react'
 
 const page = () => {
+  
+
+  
   return (
-    <div>page</div>
+ <>
+<h1>components</h1>
+ </>
   )
 }
 

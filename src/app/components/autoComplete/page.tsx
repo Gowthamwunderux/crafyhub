@@ -2,57 +2,34 @@
 import React, { useState } from "react";
 
 interface AutocompleteProps {
-  suggestions: string[];
+  suggestions: { name: string }[];
+  className:string;
 }
 
-const AutocompleteInput: React.FC<AutocompleteProps> = ({ suggestions }) => {
-  const [inputValue, setInputValue] = useState<string>("");
-  const [filteredSuggestions, setFilteredSuggestions] = useState<string[]>([]);
-  const [showSuggestions, setShowSuggestions] = useState<boolean>(false);
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value;
-    setInputValue(value);
-    const filtered = suggestions.filter((suggestion: string) =>
-      suggestion.toLowerCase().includes(value.toLowerCase())
-    );
+const AutocompleteInput: React.FC<AutocompleteProps> = ({ suggestions ,className}) => {
+  const [value, setValue] = useState<string>("");
 
-    setFilteredSuggestions(filtered);
-    setShowSuggestions(true);
-  };
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+    setValue(event.target.value);
+  }
 
-  const handleInputFocus = () => {
-    setShowSuggestions(false);
-  };
-
-  const handleSuggestionClick = (suggestion: string) => {
-    setInputValue(suggestion);
-    setShowSuggestions(false);
-  };
-
-  const handleBlur = () => {
-    setShowSuggestions(false);
-  };
-
+  const filteredDesigners = suggestions.filter((data) =>
+    value === "" ? false : data.name.toLowerCase().includes(value.toLowerCase())
+  );
   return (
     <div>
       <input
         type="text"
-        value={inputValue}
-        onChange={handleInputChange}
-        onFocus={handleInputFocus}
-        onBlur={handleBlur}
-        className="block w-1/2  rounded-3xl border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1  ring-gray-300 placeholder:text-gray-400  sm:text-sm sm:leading-9" placeholder="Try UX Designer, Graphic Designer"
-      
+        placeholder="search"
+        className={className}
+        onChange={handleChange}
       />
-      {showSuggestions && (
-        <ul>
-          {filteredSuggestions.map((suggestion, index) => (
-            <li key={index} onClick={() => handleSuggestionClick(suggestion)}>
-              {suggestion}
-            </li>
-          ))}
-        </ul>
-      )}
+
+      <ul>
+        {filteredDesigners.map((designer, index) => (
+          <li className={className} key={index}> {designer.name}</li>
+        ))}
+      </ul>
     </div>
   );
 };
