@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
 import { CrafyHubLogo } from "@/app/assets";
-import { SmallButton } from "../Buttons/page";
+import { SmallButton } from "../buttons/page";
 
 const navigation = [
   { name: "Freelancers", href: "/api/auth/login", current: false },
