@@ -4,17 +4,17 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
 import { CrafyHubLogo } from "@/app/assets";
- 
+
 const navigation = [
   { name: "Freelancers", href: "/api/auth/login", current: false },
   { name: "For Clients", href: "#", current: false },
   { name: "Why Crafy Hub", href: "#", current: false },
 ];
- 
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
- 
+
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-transparent">
@@ -25,11 +25,7 @@ export default function Navbar() {
               {/* Mobile menu button*/}
               <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 3b8b37e3f6dfee9c8ba1c41e8c3676bb8dad06c2
                 <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
               </Disclosure.Button>
             </div>
@@ -61,11 +57,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 3b8b37e3f6dfee9c8ba1c41e8c3676bb8dad06c2
         <Disclosure.Panel className="sm:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2">
             {navigation.map((item) => (
