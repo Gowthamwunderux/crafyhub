@@ -19,6 +19,6 @@
 .herobanner{
   background-image: url(../app/assets/bannerbg.svg);
   max-width: 100%;
-  background-position: bottom;
+  background-position:bottom;
   background-size: cover;
 }
