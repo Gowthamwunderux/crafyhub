@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { freelancers } from "../assets";
 import { payroll } from "../assets";
-import { LargeButton } from "../components/buttons/page";
+
 import AutocompleteInput from "../components/autoComplete/page";
 
 export default function Hiring() {
@@ -32,23 +32,7 @@ export default function Hiring() {
                 </div>
                 <div className="w-1/2">
                     <Image className="" src={freelancers} alt="lancers"></Image>
-    interface DesignerType {
-        id: number;
-        name: string;
-      }
     
-    const Designer: DesignerType[] = [
-        { id: 1, name: "User Interface (UI) Designer" },
-        { id: 2, name: "Web Designer" },
-        { id: 3, name: "Game Designer" },
-        { id: 4, name: "Interaction Designer (IxD)" },
-        { id: 5, name: "Experiential Designer" },
-        { id: 6, name: "Information Designer" },
-        { id: 7, name: "Graphic Designer" },
-        { id: 8, name: "User Experience (UX) Designer" },
-      ];
-  return (
-    <>
       <section className="herobanner bg-gradient-to-b from-Pink-700 to-[#fff]">
         <div className="px-4 mx-auto min-h-screen max-w-7xl flex justify-center items-center">
           <div className="text-center">
