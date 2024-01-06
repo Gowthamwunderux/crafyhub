@@ -20,14 +20,14 @@ const AutocompleteInput: React.FC<AutocompleteProps> = ({ suggestions ,className
     <div>
       <input
         type="text"
-        placeholder="search"
+        placeholder="Try UX Designer , Graphic Designer"
         className={className}
         onChange={handleChange}
       />
 
       <ul>
         {filteredDesigners.map((designer, index) => (
-          <li className={className} key={index}> {designer.name}</li>
+          <li className=" bg-blue-100 w-96 mx-0 font-bold  p-2 text-left ml-5" key={index}> {designer.name}</li>
         ))}
       </ul>
     </div>
