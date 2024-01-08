@@ -1,5 +1,6 @@
+import Image from "next/image";
 import React from 'react'
-
+import { CrafyHubLogo } from "@/app/assets";
 const footer = () => {
   return (
     <div>
@@ -8,12 +9,12 @@ const footer = () => {
 
 
 
-<footer className="bg-white dark:bg-gray-900">
-    <div className="mx-auto w-full max-w-screen-2xl">
+<footer className="">
+    <div className="mx-auto max-w-7xl px-2 sm:px-6">
       <div className="grid grid-cols-2 gap-24 px-4 py-6 lg:py-8 md:grid-cols-5">
         <div>
-            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
+            <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
                     <a href="#" className=" hover:underline">Crafian for freelancers</a>
                 </li>
@@ -29,8 +30,8 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">FOR HIRING</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">FOR HIRING</h2>
+            <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Crafian for hiring</a>
                 </li>
@@ -46,8 +47,8 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">WHY CRAFYHUB</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">WHY CRAFYHUB</h2>
+            <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Mission</a>
                 </li>
@@ -60,8 +61,8 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">COMMUNITY</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">COMMUNITY</h2>
+            <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
                     <a href="#" className="hover:underline">Events</a>
                 </li>
@@ -74,23 +75,26 @@ const footer = () => {
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-medium text-gray-900 uppercase dark:text-white">SOCIAL</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">SOCIAL</h2>
+            <ul className="text-gray-500 dark:text-gray-400 font-normal">
                 <li className="mb-4">
                     <a href="#" className=""><img src="" alt="" /></a>
                 </li>
             </ul>
         </div>
     </div>
-    <div className="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        
-        <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="#">Crafyhub</a>. All Rights Reserved.
+    <div className="px-4 py-6 bg-gray-100  md:flex md:items-center md:justify-between">
+    <div className="flex flex-shrink-0 items-center">
+                <Image className="h-8 w-auto" src={CrafyHubLogo} alt="logo" />
+                <h2 className="px-4 text-2xl font-semibold">Crafyhub</h2>
+              </div>
+        <span className="text-sm  font-normal sm:text-center">© 2023 <a href="#">Crafyhub</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-            <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">Terms & Conditions |</a>
-            <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">Privacy Policy |</a>
-            <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">Cookie Policy  |</a>
-            <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">Code of Conduct</a>
+            <a href="#" className="text-sm font-normal">Terms & Conditions |</a>
+            <a href="#" className="text-sm font-normal">Privacy Policy |</a>
+            <a href="#" className="text-sm font-normal">Cookie Policy  |</a>
+            <a href="#" className="text-sm font-normal">Code of Conduct</a>
         </div>
       </div>
     </div>

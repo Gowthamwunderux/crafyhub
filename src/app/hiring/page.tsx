@@ -40,8 +40,8 @@ export default function Hiring() {
                 />
               </div>
             </div>
-            <p className="pt-6 text-base font-light">OR</p>
-            <h6 className="pt-5">
+            <p className="py-3.5 text-base font-light">OR</p>
+            <h6 className="py-3.5">
               Let us find the perfect Designers or team for your projects
             </h6>
             <button
@@ -54,36 +54,36 @@ export default function Hiring() {
         </div>
       </section>
 
-      <div className="flex mb-4 px-10 mx-auto min-h-screen justify-center items-center">
+      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
         <div className="w-1/2">
           <h3 className="text-5xl font-semibold text-black">
             Find the top Designers
           </h3>
-          <p className="pt-6">
+          <p className="py-6">
             Find the perfect fit for your next big project, and<br></br> hire
             for free.
           </p>
           <button
             type="button"
-            className="bg-Pink-700 border-solid text-black mt-5 bg-Pink-100 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-5 border-black me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="bg-Pink-700 border-solid border border-indigo-600  text-black   font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2"
           >
             FIND TALENT DESIGNERS
           </button>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 flex justify-center items-center">
           <Image className="" src={freelancers} alt="lancers"></Image>
         </div>
       </div>
 
-      <div className="flex mb-4 px-14 mx-auto min-h-screen justify-center items-center">
-        <div className="w-1/2">
+      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
+        <div className="w-1/2 flex justify-center items-center">
           <Image className="" src={payroll} alt="roll"></Image>
         </div>
         <div className="w-1/2">
           <h3 className="text-5xl font-semibold text-black leading-tight">
             Manage your projects &<br></br> payroll
           </h3>
-          <p className="pt-6">
+          <p className="py-6">
             Recruit existing freelancers and onboard them for ongoing<br></br>{" "}
             initiatives. Acquire talent for new projects and oversee project
             <br></br> management, as well as remuneration, for a diverse global
@@ -91,19 +91,19 @@ export default function Hiring() {
           </p>
           <button
             type="button"
-            className="bg-Pink-700 border-solid border-1  text-black mt-5 bg-Pink-100 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-5 border-black me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="bg-Pink-700 border-solid border border-indigo-600  text-black  font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 "
           >
             HIRE FOR CRAFYHUB
           </button>
         </div>
       </div>
 
-      <div className="flex mb-4 px-14 mx-auto min-h-screen justify-center items-center">
+      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
         <div className="w-full bg-black h-12">
           <h3 className="text-5xl font-semibold text-white">
             Start Hiring Top Freelancers
           </h3>
-          <p className="pt-6">
+          <p className="py-6">
             Get started for free. Plus, Independents on<br></br> Crafyhub keep
             100% of what you pay them.
           </p>
