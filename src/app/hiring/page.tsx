@@ -36,7 +36,7 @@ export default function Hiring() {
                 
                 <AutocompleteInput
                   suggestions={Designer}
-                  className=" m-5 w-96 py-2 rounded-3xl px-8"
+                  className=" border m-5 w-96 py-2 rounded-3xl px-8"
                 />
               </div>
             </div>

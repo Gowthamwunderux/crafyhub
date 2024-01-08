@@ -15,7 +15,6 @@ const navigation = [
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
-
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-transparent">
@@ -52,14 +51,17 @@ export default function Navbar() {
                     </Link>
                   ))}
                 </div>
-                
-                
               </div>
-              
             </div>
             <div className="flex justify-self-end">
-              <SmallButton label='SIGN UP' className='bg-Pink-700 text-black text-base rounded font-medium border-solid border border-indigo-600 px-3.5 py-1'></SmallButton>
-              <SmallButton label='LOG IN' className='bg-Pink-900 text-White text-base rounded font-medium border-solid border border-Pink-900 ml-2 px-3.5 py-1'></SmallButton>
+              <SmallButton
+                label="SIGN UP"
+                className="bg-Pink-700 text-black text-base rounded font-medium border-solid border border-indigo-600 px-3.5 py-1"
+              ></SmallButton>
+              <SmallButton
+                label="LOG IN"
+                className="bg-Pink-900 text-White text-base rounded font-medium border-solid border border-Pink-900 ml-2 px-3.5 py-1"
+              ></SmallButton>
             </div>
           </div>
         </div>
