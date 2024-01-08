@@ -46,7 +46,7 @@ export default function Hiring() {
             </h6>
             <button
               type="button"
-              className="mt-5 bg-Pink-900 text-White-900  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2"
+              className="mt-5 bg-Pink-900 text-White-900  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2 transition-all  shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)]"
             >
               HIRE DESIGNERS
             </button>
@@ -66,7 +66,7 @@ export default function Hiring() {
           </p>
           <button
             type="button"
-            className="bg-Pink-700 border-solid border border-indigo-600  text-black   font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2"
+            className="bg-Pink-700 border-solid border border-indigo-600  text-black   font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)]"
           >
             FIND TALENT DESIGNERS
           </button>
@@ -94,7 +94,7 @@ export default function Hiring() {
           </p>
           <button
             type="button"
-            className="bg-Pink-700 border-solid border border-indigo-600  text-black  font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 "
+            className="bg-Pink-700 border-solid border border-indigo-600  text-black  font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)] "
           >
             HIRE FOR CRAFYHUB
           </button>

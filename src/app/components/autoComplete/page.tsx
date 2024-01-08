@@ -20,7 +20,7 @@ const AutocompleteInput: React.FC<AutocompleteProps> = ({ suggestions ,className
     <div>
       <input
         type="text"
-        placeholder="search"
+        placeholder="Try UX Designer, Graphic Designer"
         className={className}
         onChange={handleChange}
       />

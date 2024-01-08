@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from 'react'
-import { CrafyHubLogo } from "@/app/assets";
+import { CrafyHubLogo,InstaLogo } from "@/app/assets";
 const footer = () => {
   return (
     <div>
@@ -78,7 +79,7 @@ const footer = () => {
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">SOCIAL</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal">
                 <li className="mb-4">
-                    <a href="#" className=""><img src="" alt="" /></a>
+                  <Link href="#"><Image src={InstaLogo} alt="Instagram"></Image></Link>
                 </li>
             </ul>
         </div>

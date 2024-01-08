@@ -55,7 +55,7 @@ export default function Navbar() {
             </div>
             <div className="flex justify-self-end">
               <SmallButton label='SIGN UP' className='bg-Pink-700 text-black text-base rounded font-medium border-solid border border-indigo-600 px-3.5 py-1'></SmallButton>
-              <SmallButton label='LOG IN' className='bg-Pink-900 text-White-900 text-base rounded font-medium border-solid border border-Pink-900 ml-2 px-3.5 py-1'></SmallButton>
+              <SmallButton label='LOG IN' className='bg-Pink-900 text-White-900 text-base rounded font-medium border-solid border border-Pink-900 ml-2 px-3.5 py-1 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)]'></SmallButton>
             </div>
           </div>
         </div>
