@@ -46,7 +46,7 @@ export default function Hiring() {
             </h6>
             <button
               type="button"
-              className="mt-5 bg-Pink-900 text-White  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2"
+              className="mt-5 bg-Pink-900 text-White-900  font-medium rounded-lg  px-7 py-3.5 me-2 mb-2"
             >
               HIRE DESIGNERS
             </button>
@@ -54,6 +54,7 @@ export default function Hiring() {
         </div>
       </section>
 
+      <section className="desginers bg-gradient-to-t from-Pink-700 to-[#fff] ">
       <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
         <div className="w-1/2">
           <h3 className="text-5xl font-semibold text-black">
@@ -74,7 +75,9 @@ export default function Hiring() {
           <Image className="" src={freelancers} alt="lancers"></Image>
         </div>
       </div>
+      </section>
 
+      <section className="payroll bg-White-800">
       <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
         <div className="w-1/2 flex justify-center items-center">
           <Image className="" src={payroll} alt="roll"></Image>
@@ -97,18 +100,27 @@ export default function Hiring() {
           </button>
         </div>
       </div>
-
-      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
+      </section>
+      
+      <section className="Freelancers bg-gradient-to-t from-black-100 to-black-700">
+      <div className="flex mx-auto max-w-7xl min-h-96 pt-16">
         <div className="w-full bg-black h-12">
-          <h3 className="text-5xl font-semibold text-white">
+          <h3 className="text-5xl font-semibold text-White-900">
             Start Hiring Top Freelancers
           </h3>
-          <p className="py-6">
+          <p className="py-6 text-gray-100">
             Get started for free. Plus, Independents on<br></br> Crafyhub keep
             100% of what you pay them.
           </p>
+          <button
+            type="button"
+            className="bg-White-900  text-black  font-medium rounded-lg text-base px-5 py-5  me-2 mb-2 "
+          >
+            GET STARTED
+          </button>
         </div>
       </div>
+      </section>
     </>
   );
 }

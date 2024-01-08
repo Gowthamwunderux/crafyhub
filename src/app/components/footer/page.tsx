@@ -10,8 +10,8 @@ const footer = () => {
 
 
 <footer className="">
-    <div className="mx-auto max-w-7xl px-2 sm:px-6">
-      <div className="grid grid-cols-2 gap-24 px-4 py-6 lg:py-8 md:grid-cols-5">
+    <div className="mx-auto max-w-7xl sm:px-6">
+      <div className="grid grid-cols-2 gap-24 py-6 lg:py-8 md:grid-cols-5">
         <div>
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
@@ -83,7 +83,7 @@ const footer = () => {
             </ul>
         </div>
     </div>
-    <div className="px-4 py-6 bg-gray-100  md:flex md:items-center md:justify-between">
+    <div className="py-6 md:flex md:items-center md:justify-between">
     <div className="flex flex-shrink-0 items-center">
                 <Image className="h-8 w-auto" src={CrafyHubLogo} alt="logo" />
                 <h2 className="px-4 text-2xl font-semibold">Crafyhub</h2>

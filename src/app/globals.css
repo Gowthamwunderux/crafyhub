@@ -22,3 +22,9 @@
   background-position:bottom;
   background-size: cover;
 }
+
+.Freelancers{
+  background-image: url(../app/assets/Freelancers-bg.svg);
+  max-width: 100%;
+  background-size: cover;
+}

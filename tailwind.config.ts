@@ -8,7 +8,10 @@ const config: Config = {
   ],
   theme: {
     colors:{
-      'White': '#ffffff',
+      'White': {
+        900: '#ffffff',
+        800: '#FAFCFF'
+      },
       'grey': 'rgba(56, 56, 56, 1)',
       'transparent':'transparent',
       // 'myGradient': 'linear-gradient(180deg, rgba(255, 0, 85, 0.07) 0%, rgba(255, 255, 255, 0.00) 100%)',
@@ -21,6 +24,16 @@ const config: Config = {
       'blue': {
         100: '#2266E112'
       },
+      'black': {
+        100: '#01020A',
+        700: '#040404' 
+      },
+      'gray' : {
+        100: '#d9d9d9'
+      }
+      
+      
+      
       
 
     },
