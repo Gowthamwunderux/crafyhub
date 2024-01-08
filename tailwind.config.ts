@@ -32,9 +32,10 @@ const config: Config = {
       },
       'gray' : {
         100: '#d9d9d9'
-      }
+      },
       
-      
+      "bgGradient1":"rgba(255, 0, 85, 0.07) ",
+      "bgGradient2":" rgba(255, 255, 255, 0.00)"
       
       
 
