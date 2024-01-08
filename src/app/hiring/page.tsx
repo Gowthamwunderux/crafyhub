@@ -33,10 +33,10 @@ export default function Hiring() {
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                   {" "}
                 </div>
-                {/* <input type="text" name="price" id="price" className="block w-1/2  rounded-3xl border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1  ring-gray-300 placeholder:text-gray-400  sm:text-sm sm:leading-9" placeholder="Try UX Designer, Graphic Designer" /> */}
+                
                 <AutocompleteInput
                   suggestions={Designer}
-                  className="border m-5 w-96 py-2 rounded-3xl px-8"
+                  className=" m-5 w-96 py-2 rounded-3xl px-8"
                 />
               </div>
             </div>
