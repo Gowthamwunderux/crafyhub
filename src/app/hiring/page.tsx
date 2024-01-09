@@ -55,8 +55,8 @@ export default function Hiring() {
         </div>
       </section>
 
-      <section className="desginers bg-gradient-to-t from-Pink-700 to-[#fff] ">
-      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
+      <section className="desginers bg-gradient-to-t from-Pink-700 to-[#fff]">
+      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center md:grid-cols-2">
         <div className="w-1/2">
           <h3 className="text-5xl font-semibold text-black">
             Find the top Designers

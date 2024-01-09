@@ -17,16 +17,16 @@ const footer = () => {
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
-                    <a href="#" className=" hover:underline">Crafian for freelancers</a>
+                    <Link href="#" className="hover:underline">Crafian for freelancers</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">How it works</a>
+                    <Link href="#" className="hover:underline">How it works</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Commission free</a>
+                    <Link href="#" className="hover:underline">Commission free</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Top Designers</a>
+                    <Link href="#" className="hover:underline">Top Designers</Link>
                 </li>
             </ul>
         </div>
@@ -34,16 +34,16 @@ const footer = () => {
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">FOR HIRING</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Crafian for hiring</a>
+                    <Link href="#" className="hover:underline">Crafian for hiring</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">How it works</a>
+                    <Link href="#" className="hover:underline">How it works</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Commission free</a>
+                    <Link href="#" className="hover:underline">Commission free</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Hire for crafyhub</a>
+                    <Link href="#" className="hover:underline">Hire for crafyhub</Link>
                 </li>
             </ul>
         </div>
@@ -51,13 +51,13 @@ const footer = () => {
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">WHY CRAFYHUB</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Mission</a>
+                    <Link href="#" className="hover:underline">Mission</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Support</a>
+                    <Link href="#" className="hover:underline">Support</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">FAQ</a>
+                    <Link href="#" className="hover:underline">FAQ</Link>
                 </li>
             </ul>
         </div>
@@ -65,13 +65,13 @@ const footer = () => {
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">COMMUNITY</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Events</a>
+                    <Link href="#" className="hover:underline">Events</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Affiliate's</a>
+                    <Link href="#" className="hover:underline">Affiliate's</Link>
                 </li>
                 <li className="mb-4">
-                    <a href="#" className="hover:underline">Invite a friend</a>
+                    <Link href="#" className="hover:underline">Invite a friend</Link>
                 </li>
             </ul>
         </div>
@@ -89,13 +89,13 @@ const footer = () => {
                 <Image className="h-8 w-auto" src={CrafyHubLogo} alt="logo" />
                 <h2 className="px-4 text-2xl font-semibold">Crafyhub</h2>
               </div>
-        <span className="text-sm  font-normal sm:text-center">© 2023 <a href="#">Crafyhub</a>. All Rights Reserved.
+        <span className="text-sm  font-normal sm:text-center">© 2023 <Link href="#">Crafyhub</Link>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
-            <a href="#" className="text-sm font-normal">Terms & Conditions |</a>
-            <a href="#" className="text-sm font-normal">Privacy Policy |</a>
-            <a href="#" className="text-sm font-normal">Cookie Policy  |</a>
-            <a href="#" className="text-sm font-normal">Code of Conduct</a>
+            <Link href="#" className="">Terms & Conditions |</Link>
+            <Link href="#" className="">Privacy Policy |</Link>
+            <Link href="#" className="">Cookie Policy  |</Link>
+            <Link href="#" className="">Code of Conduct</Link>
         </div>
       </div>
     </div>
