@@ -21,7 +21,7 @@ export default function Navbar() {
       <>
         <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
           <div className="relative flex h-16 items-center justify-between">
-            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <div className="absolute inset-y-16 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}
               <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                 <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -61,7 +61,7 @@ export default function Navbar() {
         </div>
 
         <Disclosure.Panel className="sm:hidden">
-          <div className="space-y-1 px-2 pb-3 pt-2">
+          <div className="space-y-1 px-2 pb-3 pt-3.5">
             {navigation.map((item) => (
               <Disclosure.Button
                 key={item.name}

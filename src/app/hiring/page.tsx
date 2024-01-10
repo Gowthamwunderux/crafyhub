@@ -33,7 +33,7 @@ export default function Hiring() {
                 <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                   {" "}
                 </div>
-                
+
                 <AutocompleteInput
                   suggestions={Designer}
                   className=" border m-5 w-96 py-2 rounded-3xl px-8"
@@ -56,71 +56,71 @@ export default function Hiring() {
       </section>
 
       <section className="desginers bg-gradient-to-t from-Pink-700 to-[#fff]">
-      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center md:grid-cols-2">
-        <div className="w-1/2">
-          <h3 className="text-5xl font-semibold text-black">
-            Find the top Designers
-          </h3>
-          <p className="py-6">
-            Find the perfect fit for your next big project, and<br></br> hire
-            for free.
-          </p>
-          <button
-            type="button"
-            className="bg-Pink-700 border-solid border border-indigo-600  text-black   font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)]"
-          >
-            FIND TALENT DESIGNERS
-          </button>
+        <div className="lg:flex mx-auto max-w-7xl min-h-screen justify-center items-center md:grid-cols-2">
+          <div className="lg:w-1/2 w-full">
+            <h3 className=" 2xl: text-2xl  sm:text-5xl font-semibold text-black">
+              Find the top Designers
+            </h3>
+            <p className="py-6">
+              Find the perfect fit for your next big project, and<br></br> hire
+              for free.
+            </p>
+            <button
+              type="button"
+              className="bg-Pink-700 border-solid border border-indigo-600  text-black   font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)]"
+            >
+              FIND TALENT DESIGNERS
+            </button>
+          </div>
+          <div className="lg:w-1/2 flex justify-center items-center">
+            <Image className="" src={freelancers} alt="lancers"></Image>
+          </div>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
-          <Image className="" src={freelancers} alt="lancers"></Image>
-        </div>
-      </div>
       </section>
 
       <section className="payroll bg-White-800">
-      <div className="flex mx-auto max-w-7xl min-h-screen justify-center items-center">
-        <div className="w-1/2 flex justify-center items-center">
-          <Image className="" src={payroll} alt="roll"></Image>
+        <div className="lg:flex mx-auto max-w-7xl min-h-screen justify-center items-center">
+          <div className="lg:w-1/2 w-full flex justify-center items-center">
+            <Image className="" src={payroll} alt="roll"></Image>
+          </div>
+          <div className="lg:w-1/2 w-full">
+            <h3 className="text-5xl font-semibold text-black leading-tight">
+              Manage your projects &<br></br> payroll
+            </h3>
+            <p className="py-6">
+              Recruit existing freelancers and onboard them for ongoing<br></br>{" "}
+              initiatives. Acquire talent for new projects and oversee project
+              <br></br> management, as well as remuneration, for a diverse global
+              <br></br> workforce.
+            </p>
+            <button
+              type="button"
+              className="bg-Pink-700 border-solid border border-indigo-600  text-black  font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)] "
+            >
+              HIRE FOR CRAFYHUB
+            </button>
+          </div>
         </div>
-        <div className="w-1/2">
-          <h3 className="text-5xl font-semibold text-black leading-tight">
-            Manage your projects &<br></br> payroll
-          </h3>
-          <p className="py-6">
-            Recruit existing freelancers and onboard them for ongoing<br></br>{" "}
-            initiatives. Acquire talent for new projects and oversee project
-            <br></br> management, as well as remuneration, for a diverse global
-            <br></br> workforce.
-          </p>
-          <button
-            type="button"
-            className="bg-Pink-700 border-solid border border-indigo-600  text-black  font-medium rounded-lg text-base px-5 py-5 border-black me-2 mb-2 shadow hover:shadow-[0_6px_0px_0px_rgba(0,0,0)] "
-          >
-            HIRE FOR CRAFYHUB
-          </button>
-        </div>
-      </div>
       </section>
-      
+
       <section className="Freelancers bg-gradient-to-t from-black-100 to-black-700">
-      <div className="flex mx-auto max-w-7xl min-h-96 pt-16">
-        <div className="w-full bg-black h-12">
-          <h3 className="text-5xl font-semibold text-White-900">
-            Start Hiring Top Freelancers
-          </h3>
-          <p className="py-6 text-gray-100">
-            Get started for free. Plus, Independents on<br></br> Crafyhub keep
-            100% of what you pay them.
-          </p>
-          <button
-            type="button"
-            className="bg-White-900  text-black  font-medium rounded-lg text-base px-5 py-5  me-2 mb-2 "
-          >
-            GET STARTED
-          </button>
+        <div className="flex mx-auto max-w-7xl min-h-96 pt-16">
+          <div className="w-full bg-black h-12">
+            <h3 className="text-5xl font-semibold text-White-900">
+              Start Hiring Top Freelancers
+            </h3>
+            <p className="py-6 text-gray-100">
+              Get started for free. Plus, Independents on<br></br> Crafyhub keep
+              100% of what you pay them.
+            </p>
+            <button
+              type="button"
+              className="bg-White-900  text-black  font-medium rounded-lg text-base px-5 py-5  me-2 mb-2 "
+            >
+              GET STARTED
+            </button>
+          </div>
         </div>
-      </div>
       </section>
     </>
   );
