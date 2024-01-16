@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from 'react'
 import { CrafyHubLogo,InstaLogo } from "@/app/assets";
 const footer = () => {
+  const date= new Date().getFullYear()
+
   return (
     <div>
 
@@ -89,7 +91,7 @@ const footer = () => {
                 <Image className="h-8 w-auto" src={CrafyHubLogo} alt="logo" />
                 <h2 className="px-4 text-2xl font-semibold">Crafyhub</h2>
               </div>
-        <span className="text-sm  font-normal sm:text-center">© 2023 <Link href="#">Crafyhub</Link>. All Rights Reserved.
+        <span className="text-sm  font-normal sm:text-center">{"©"+ date} <Link href="#">Crafyhub</Link>. All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
             <Link href="#" className="">Terms & Conditions |</Link>

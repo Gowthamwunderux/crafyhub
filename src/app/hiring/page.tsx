@@ -32,8 +32,8 @@ export default function Hiring() {
                 <div className="relative mt-2 rounded-3xl flex justify-center pt-6">
                   <AutocompleteInput
                     suggestions={Designer}
-                    className=" border m-5 lg:min-w-[800px] py-4 rounded-[50px] px-4"
-                    placeHolder="Graphic Designer, Product Designer"
+                    className="lg:min-w-[800px] py-4 border rounded-[50px] px-4"
+                    placeHolder="Try UX Designer, Graphic Designer"
                   />
                 </div>
               </div>

@@ -23,4 +23,15 @@
   background-size: cover;
 }
 
+.webkitscrollbar {
+  overflow: scroll;
+  overflow-x: hidden;
+  
+}
+.w-h{
+  width:500px;
+  height:100px;
+  background-color: red;
+}
+
 

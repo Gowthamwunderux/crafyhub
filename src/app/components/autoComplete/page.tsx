@@ -17,6 +17,23 @@ const AutocompleteInput: React.FC<AutocompleteProps> = ({
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     setValue(event.target.value);
   }
+  const listitem = document.getElementById("listitem") as HTMLInputElement 
+
+  const inputfield = document.getElementById("search") as HTMLInputElement 
+
+  console.log("input"+listitem)
+
+  if(listitem){
+    inputfield.addEventListener("focus",function(){
+      listitem.classList.add("w-h")
+     })
+  }
+
+  
+ 
+
+
+  
 
   const filteredDesigners = suggestions.filter((data) =>
     value === "" ? false : data.name.toLowerCase().includes(value.toLowerCase())
@@ -28,16 +45,19 @@ const AutocompleteInput: React.FC<AutocompleteProps> = ({
         placeholder={placeHolder}
         className={className}
         onChange={handleChange}
+        id="search"
       />
-
-      <ul>
+    <div>
+          <ul className="bg-gray-100 mx-auto rounded-md mt-px lg:min-w-[780px] webkit-overflow-scrolling webkitscrollbar" id="listitem">
         {filteredDesigners.map((designer, index) => (
-          <li className={className} key={index}>
+          <li className="" key={index}>
             {" "}
             {designer.name}
           </li>
         ))}
       </ul>
+    </div>
+  
     </div>
   );
 };
