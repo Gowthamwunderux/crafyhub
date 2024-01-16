@@ -7,7 +7,9 @@ export default function Home() {
   return (
     <>     
       <Header />
-      <Hiring />
+      <div className="main">
+        <Hiring />
+      </div>
       <Footer/>
     </>
   );

@@ -7,7 +7,7 @@ import { CrafyHubLogo } from "@/app/assets";
 import { SmallButton } from "../buttons/page";
 
 const navigation = [
-  { name: "Freelancers", href: "/api/auth/login", current: false },
+  { name: "Freelancers", href: "#", current: false },
   { name: "For Clients", href: "#", current: false },
   { name: "Why Crafy Hub", href: "#", current: false },
 ];
@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-transparent">
       <>
-        <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
+        <div className="container lg:px-24 px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-16 left-0 flex items-center sm:hidden">
               {/* Mobile menu button*/}

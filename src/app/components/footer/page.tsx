@@ -10,9 +10,9 @@ const footer = () => {
 
 
 
-<footer className="">
-    <div className="mx-auto max-w-7xl sm:px-6">
-      <div className="grid grid-cols-2 lg:gap-24 gap-12 px-3 lg:px-0 py-6 lg:py-8 md:grid-cols-5">
+<footer className="crafy_footer">
+    <div className="mx-auto container lg:px-24">
+      <div className="grid grid-cols-2 lg:gap-4 gap-4 px-3 lg:px-0 py-6 lg:py-8 md:grid-cols-5">
         <div>
             <h2 className="mb-6 text-base font-medium text-gray-900 uppercase dark:text-white">FOR FREELANCERS</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-normal text-sm">
