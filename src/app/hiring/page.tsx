@@ -75,6 +75,7 @@ export default function Hiring() {
             </div>
           </div>
         </section>
+        
         <section className="crafy_designers bg-gradient-to-t from-Pink-700 to-[#fff]">
           <div className="grid items-center container mx-auto lg:min-h-screen lg:py-0 py-24 lg:px-24 px-8">
             <div className="grid-cols-1 md:grid md:grid-cols-2 items-center gap-5">
